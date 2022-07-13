@@ -1,0 +1,35 @@
+#872D09 #EB6E13 #FC9F2D #E8AC3A #FCEEC5
+
+body {
+	background-color: #E8AC3A;
+}
+
+nav {
+	/* background-color: #872d09; */
+	color: #EB6E13;
+}
+
+#textLogo
+{
+	font-size: 44px;
+}
+
+.options{
+	font-size: 22px;
+}
+
+.options:hover
+{
+	color: #E8AC3A;
+}
+
+hr{
+	border-color: #FC9F2D;
+}
+
+#logosFooter
+{
+	background-color: #872d09;
+	color: whitesmoke;
+}
+
