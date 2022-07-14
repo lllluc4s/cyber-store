@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt_BR">
 
 <head>
     <meta charset="UTF-8">
@@ -70,8 +70,6 @@
         </nav>
     </header>
 
-    </header>
-
     @yield('content')
 
     {{-- <footer class="text-gray-600">
@@ -137,8 +135,6 @@
             </div>
         </div> --}}
 
-
-
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
         <div id="logosFooter" class="flex justify-center pt-9">
             <div class="flex justify-center mb-9">
@@ -203,8 +199,6 @@
             © 2022 Alumiô Bazar
         </div>
     </footer>
-    </footer>
-
 </body>
 
 </html>
