@@ -3,12 +3,11 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Formulario>
  */
-class UserFactory extends Factory
+class FormularioFactory extends Factory
 {
 	/**
 	 * Define the model's default state.
@@ -20,6 +19,7 @@ class UserFactory extends Factory
 		return [
 			'name' => fake()->name(),
 			'email' => fake()->safeEmail(),
+			'plataforma' => fake()->randomElement(['Facebook', 'Instagram', 'Outros']),
 		];
 	}
 }

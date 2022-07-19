@@ -9,13 +9,9 @@ nav {
 	color: #EB6E13;
 }
 
-#textLogo
-{
-	font-size: 44px;
-}
-
 .options{
 	font-size: 22px;
+	text-shadow: black 1px 1px 1px;
 }
 
 .options:hover
@@ -25,6 +21,8 @@ nav {
 
 hr{
 	border-color: #FC9F2D;
+	box-shadow: 1px 1px 1px 1.5px #E8AC3A;
+	padding: .5px;
 }
 
 #logosFooter
