@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Formulario extends Model
 {
-    use HasFactory;
+	use HasFactory;
 
-		protected $fillable = [
-			'name',
-			'email',
-			'plataforma'
-		];
+	protected $fillable = [
+		'name',
+		'email',
+		'plataforma'
+	];
 }
